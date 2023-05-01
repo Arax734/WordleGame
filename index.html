@@ -1,0 +1,23 @@
+<html lang="en">
+
+<head>
+    <title>Wordle</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body onkeyup="handleKeyPress(event)">
+    <div class="container flexbox">
+        <span id="information"><i>Press ENTER to confirm your answer</i></span>
+        <div id="wordle-boxes" class="flexbox">
+            <input id="letter0" type="text" maxlength="1">
+            <input id="letter1" type="text" maxlength="1">
+            <input id="letter2" type="text" maxlength="1">
+            <input id="letter3" type="text" maxlength="1">
+            <input id="letter4" type="text" maxlength="1">
+        </div>
+        <span id="lives-span"><strong>Number of lives:</strong><span id="lives-number">5</span></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

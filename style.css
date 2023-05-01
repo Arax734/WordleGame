@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(235, 121, 0);
+    background: linear-gradient(135deg, rgba(235, 121, 0, 1) 0%, rgba(80, 32, 255, 1) 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+#wordle-boxes {
+    margin-top: 10px;
+}
+
+#wordle-boxes>input {
+    background: gray;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    outline: none;
+    font-size: 50px;
+    border-width: 3px 3px 3px 3px;
+    border-color: black;
+    text-transform: uppercase;
+}
+
+#lives-span {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#lives-number {
+    margin-left: 10px;
+    font-size: 25px;
+}
